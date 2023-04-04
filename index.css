@@ -1,0 +1,67 @@
+h1 {
+    background-color: navy;
+    color: whitesmoke;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+    text-decoration: wavy;
+    text-decoration-color: coral;
+}
+h3 {
+    font-family: sans-serif;
+}
+
+button {
+    background-color: red;
+    color: white;
+}
+
+input {
+    background-color: white;
+}
+
+select {
+    background-color: white;
+}
+
+textarea {
+    background-color: white;
+}
+
+fieldset {
+    background-color: white;
+    border-style: groove;
+    width: 900px;
+}
+
+.side{
+    font-size: 30px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: larger ;
+}
+section {
+    display: flex;
+    justify-content: left;
+}
+#menu {
+    background-color: grey;
+    width: 400px;
+    height: 1000px;
+}
+
+.menu {
+    float: left;
+    width: 25%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    background-color: grey;
+}

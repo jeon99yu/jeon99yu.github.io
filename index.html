@@ -5,77 +5,98 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>self introduce</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
         <h1>INTRODUCE MYSELF</h1>
     </header>
-    <hr>
-    <div>
-        <h2> 자기소개 </h2>
-        <div>
-            <img src="my_image.jpg" alt="my_image" width="300" height="300">
-        </div>
-    </div>
-    <br>
-    <main>
-        <h3>개인 정보</h3>
-        <p>
-            이름 : <strong>이정규</strong><br>
-            나이 : 25<br>
-            성별 : 
-            <label for="Men">남자</label>
-            <input type="radio" name="size" id="m" value="m" />
-            <label for="Women">여자</label>
-            <input type="radio" name="size" id="w" value="w" /><br>
-            생년월일 : 1999-05-12<br>
-            거주지역 : 서울시 영등포구 당산동
-        </p>
-        <h3>학력정보</h3>
-        <form>
-            <p>
-                <label for="school">출신학교 : </label>
-                <select name="school" id="school">
-                  <option value="univ">명지대학교</option>
-                  <option value="high">장훈고등학교</option>
-                  <option value="mid">당산중학교</option>
-                  <option value="elem">당서초등학교</option>
-                </select>
-              </p>
-              <h3>관심사</h3>
-              <ul>
-                <li>축구</li>
-                <li>포커</li>
-                <li>코딩</li>
-                <li>힙합</li>
-              </ul>
-
-        </form>
-        <p>
-            현재소속 : <a href="https://www.mju.ac.kr/mjukr/index.do" target="_blank">명지대학교(인문캠퍼스)</a> /
-            <a href="https://www.instagram.com/likelion_mju/" target="_blank">@멋쟁이사자처럼 11기</a> /
-            <a href="https://www.instagram.com/mju_green_campus/" target="_blank">@그린캠퍼스</a><br>
-            학과 : 행정학과 (60190462)<br>
-            학년 : 3학년 1학기<br> 
-        </p>
-        <h3>기타정보</h3>
-        <p>
-            이메일 : jeongkyu512@naver.com <br>
-            계좌번호 : 937702-00-536892 (KB국민)<br>
-            MBTI : ESTJ ⇨ <a href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-estj" target="_blank">click</a><br>
-            instagram : <a href="https://www.instagram.com/mangeunchuu/" target="_blank"> @mangeunchuu</a><br>
-            <h3>"<u>What does Mangunchu mean?</u>"</h3>
-            <form action="https://www.youtube.com/results">
-              <input type="text" name="search_query" />
-              <button>Search Youtube</button>
-            </form>
-        </p>
-    </main>
-    <hr>
-    <footer>
-        <label for="request"><b>"방명록"</b></label>
-        <br> 
-        <textarea name="Requests?" id="requests" cols="60" rows="5" placeholder="Type something here."></textarea>
-    </footer>
+   
+        <h2> 자기소개 페이지 </h2>
+        <nav class="menu" id="menu">
+            <div>
+                <h3>MENU BAR</h3>
+                <ul>
+                    <li><a href="">개인정보</a></li>
+                    <li><a href="">학력정보</a></li>
+                    <li><a href="">기타정보</a></li>
+                    <li><a href="">플레이리스트</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section>
+            <main>
+                <fieldset>
+                    <legend>[개인 정보]</legend>
+                    <div>
+                        <img src="my_image.jpg" alt="my_image" width="300" height="300">
+                        <p>
+                            이름 : <strong>이정규</strong><br>
+                            나이 : 25<br>
+                            성별 : 
+                            <label for="Men">남자</label>
+                            <input type="radio" name="size" id="m" value="m" />
+                            <label for="Women">여자</label>
+                            <input type="radio" name="size" id="w" value="w" /><br>
+                            생년월일 : 1999-05-12<br>
+                            거주지역 : 서울시 영등포구 당산동
+                        </p>
+                    </div>
+        
+                </fieldset>
+                <hr>
+                <fieldset>
+                    <legend>[학력정보]</legend>
+                    <div>
+                        <form>
+                            <p>
+                                <label for="school">출신학교 : </label>
+                                <select name="school" id="school">
+                                  <option value="univ">명지대학교</option>
+                                  <option value="high">장훈고등학교</option>
+                                  <option value="mid">당산중학교</option>
+                                  <option value="elem">당서초등학교</option>
+                                </select>
+                              </p>
+                              <p>
+                                현재소속 : <a href="https://www.mju.ac.kr/mjukr/index.do" target="_blank">명지대학교(인문캠퍼스)</a> /
+                                <a href="https://www.instagram.com/likelion_mju/" target="_blank">@멋쟁이사자처럼 11기</a> /
+                                <a href="https://www.instagram.com/mju_green_campus/" target="_blank">@그린캠퍼스</a><br>
+                                학과 : 행정학과 (60190462)<br>
+                                학년 : 3학년 1학기<br> 
+                            </p>
+                        </form>
+                    </div>
+                </fieldset>
+                
+                <h3>[플레이리스트]</h3>
+                    <form>
+                          <select name="music" id="music">
+                            <option value="m1">Coogie</option>
+                            <option value="m2">Sik-k</option>
+                            <option value="m3">Justin Bieber</option>
+                            <option value="m4">C Jamm</option>
+                          </select>
+                    </form>
+                <hr>
+                <fieldset>
+                    <legend>[기타정보]</legend>
+                    <div>
+                        <p>
+                            이메일 : jeongkyu512@naver.com <br>
+                            계좌번호 : 937702-00-536892 (KB국민)<br>
+                            MBTI : ESTJ ⇨ <a href="https://www.16personalities.com/ko/%EC%84%B1%EA%B2%A9%EC%9C%A0%ED%98%95-estj" target="_blank">click</a><br>
+                            instagram : <a href="https://www.instagram.com/mangeunchuu/" target="_blank"> @mangeunchuu</a><br>
+                            <h3>"<u>What does Mangunchu mean?</u>"</h3>
+                            <form action="https://www.youtube.com/results">
+                              <input type="text" name="search_query" />
+                              <button>Search Youtube</button>
+                            </form>
+                        </p>
+                    </div>
+                </fieldset>
+            </main>
+            
+        </section>
 </body>
 </html>
