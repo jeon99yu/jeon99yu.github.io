@@ -2,14 +2,8 @@ body {
     background-color: whitesmoke;
     margin: 0;
   }
-  /*.container {
-    height: 800px;
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 0;
-  }*/
   
-  /* 프로필 이미지 */
+  /* MENU BAR */
   .img {
     justify-content: center;
   }
@@ -17,7 +11,6 @@ body {
   width: 150px;
   height: 150px;
   border: 1px solid #2B3856;
-  transform: scale(1); /* 이미지 사이즈 고정 */
   border-radius: 70%
   }
   
@@ -38,19 +31,21 @@ body {
     display: flex;
     flex-direction: column;
   }
-  /* 목차 */
+  
   .index h3 {
     color: white;
     opacity: 0.7;
     text-decoration: none;
     cursor: pointer;
   }
-  /* 목차 각 항목 반응형 커서 */
+ 
   .index h3:hover {
     font-size: 1.1em;
     opacity: 1;
     text-shadow: 0.7px 0.7px 0.7px #000;
   }
+
+  /* MAIN SECTION */
   section {
     margin-left: 260px;
     height: 100vh;
@@ -61,19 +56,34 @@ body {
 
   h1 {
     font-size: xx-large;
+  }
 
-}
   p {
     margin: 0;
   }
  
   /* ABOUT part*/
-  
-  .name {
-    font-size: 65px;
-    font-weight: 900;
-    font-family: 'Oswald', sans-serif;
+
+  .title {
+    color: navy;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
   }
+
+  .eng_name {
+    font-weight: bold;
+    font-size: larger;
+  }
+
+  .kor_name {
+    font-weight: bold;
+    font-size: large;
+    color: rgb(23, 23, 26);
+  }
+  
+ 
+
   .contacts {
     font-size: 15px;
     opacity: 0.5;
@@ -85,6 +95,10 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     opacity: 0.8;
   }
+  .hashtag {
+    color: navy;
+    font-weight: bold;
+  }
   
   /* EDUCATION part */
   .edud_h2 {
@@ -94,10 +108,30 @@ body {
     margin-bottom:25px;
     font-family: 'Oswald', sans-serif;
   }
+
   .comments {
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     opacity: 0.6;
   }
+
+  #ed {
+    border-radius: 70%
+  }
+
   
   /* INTERESTS part */
+
+  #int {
+    border-radius: 70%
+  }
+
+  .int_title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  button {
+    background-color: red;
+    color: white;
+  }
