@@ -1,67 +1,103 @@
-h1 {
-    background-color: navy;
-    color: whitesmoke;
-    text-align: center;
-    font-family: sans-serif;
-}
-
-h2 {
-    color: black;
-    font-family: fantasy;
-    text-align: center;
-    text-decoration: wavy;
-    text-decoration-color: coral;
-}
-h3 {
-    font-family: sans-serif;
-}
-
-button {
-    background-color: red;
-    color: white;
-}
-
-input {
-    background-color: white;
-}
-
-select {
-    background-color: white;
-}
-
-textarea {
-    background-color: white;
-}
-
-fieldset {
-    background-color: white;
-    border-style: groove;
-    width: 900px;
-}
-
-.side{
-    font-size: 30px;
-}
-
-legend {
-    font-weight: bold;
-    font-size: larger ;
-}
-section {
+body {
+    background-color: whitesmoke;
+    margin: 0;
+  }
+  /*.container {
+    height: 800px;
     display: flex;
-    justify-content: left;
-}
-#menu {
-    background-color: grey;
-    width: 400px;
-    height: 1000px;
-}
-
-.menu {
-    float: left;
-    width: 25%;
-    height: 100%;
-    line-height: 50px;
+    flex-direction: column;
+    flex-shrink: 0;
+  }*/
+  
+  /* 프로필 이미지 */
+  .img {
+    justify-content: center;
+  }
+  #memoji {
+  width: 150px;
+  height: 150px;
+  border: 1px solid #2B3856;
+  transform: scale(1); /* 이미지 사이즈 고정 */
+  border-radius: 70%
+  }
+  
+  .menu-bar {
+    position: fixed;
+    border: 0;
+    background-color: #2B3856;
+    display: block;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .index {
     text-align: center;
-    background-color: grey;
+    display: flex;
+    flex-direction: column;
+  }
+  /* 목차 */
+  .index h3 {
+    color: white;
+    opacity: 0.7;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  /* 목차 각 항목 반응형 커서 */
+  .index h3:hover {
+    font-size: 1.1em;
+    opacity: 1;
+    text-shadow: 0.7px 0.7px 0.7px #000;
+  }
+  section {
+    margin-left: 260px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: xx-large;
+
 }
+  p {
+    margin: 0;
+  }
+ 
+  /* ABOUT part*/
+  
+  .name {
+    font-size: 65px;
+    font-weight: 900;
+    font-family: 'Oswald', sans-serif;
+  }
+  .contacts {
+    font-size: 15px;
+    opacity: 0.5;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+  }
+  .main-introduction {
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    opacity: 0.8;
+  }
+  
+  /* EDUCATION part */
+  .edud_h2 {
+    font-size: 65px;
+    font-weight: 700;
+    margin-top:25px;
+    margin-bottom:25px;
+    font-family: 'Oswald', sans-serif;
+  }
+  .comments {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    opacity: 0.6;
+  }
+  
+  /* INTERESTS part */
