@@ -84,7 +84,9 @@ body {
     color: rgb(23, 23, 26);
   }
   
- 
+  .icon {
+    font-size: medium;
+  }
 
   .contacts {
     font-size: 15px;
