@@ -55,11 +55,13 @@ body {
   }
 
   h1 {
-    font-size: xx-large;
+    font-size: 40px;
+    font-weight: bold;
   }
 
   p {
     margin: 0;
+    font-family: 'Fira Sans', sans-serif;
   }
  
   /* ABOUT part*/
@@ -67,8 +69,8 @@ body {
   .title {
     color: navy;
     font-weight: bold;
-    font-family: 'Arial', sans-serif;
-    font-size: 28px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 35px;
   }
 
   .eng_name {
@@ -101,6 +103,15 @@ body {
   }
   
   /* EDUCATION part */
+
+  .container {
+    width:150px; 
+    height:150px; 
+    border:1.5px solid whitesmoke; 
+    float:left; 
+    margin-right:30px; 
+    margin-bottom:10px;
+  }
   .edud_h2 {
     font-size: 65px;
     font-weight: 700;
@@ -134,4 +145,8 @@ body {
   button {
     background-color: red;
     color: white;
+  }
+
+  .rank {
+    font-weight: bold;
   }
